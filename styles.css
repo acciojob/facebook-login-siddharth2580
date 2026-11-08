@@ -1,1 +1,61 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.left {
+    width: 500px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 14px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.signup {
+    background-color: #42b72a;
+}
